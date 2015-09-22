@@ -1,0 +1,39 @@
+body {
+	font-family: "Helvetica";
+	width: 960px;
+	margin: 0 auto;
+	background-color: #A1947D;
+	font-size: 18px;
+}
+
+article {
+	background-color: white;
+}
+
+img {
+	width: 60%;
+	margin-left: 20%;
+}
+
+h1,h2,p,li {
+	margin: 0;
+	padding: 20px 30px 0px 30px;
+}
+
+li {
+	margin: 0;
+	list-style-position: inside;
+}
+
+h1 {
+	font-size: 30px;
+	text-align: center;
+	background-color: #B5E5FF;
+	padding-bottom: 10px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+
