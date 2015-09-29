@@ -1,0 +1,38 @@
+body {
+	margin: 0;
+	background: #ccc;
+	font-family: "Helvetica";
+}
+
+.container {
+	margin: 0 auto;
+	width: 700px;
+	background: #fff url("alton-brown-onion-dip.jpg") no-repeat top center;
+	padding-top: 200px;
+	border-top: 10px solid #424242;
+}
+
+article {
+	padding: 20px 40px;
+	background: #fff;
+}
+
+.recipe {
+
+}
+
+.recipe h1 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	color: #070045;
+}
+
+.recipe h2 {
+	font-size: 20px;
+	color: #070045;
+}
+
+.recipe a {
+	color: red;
+}
