@@ -1,0 +1,65 @@
+
+
+body {
+	margin: 0;
+	padding: 0;
+	color: white;
+	font-family: Verdana;
+	text-align: center;
+	font-weight: bold;
+	height: 1000px;
+	overflow-y: none;
+	overflow: hidden;
+}
+
+p {
+	width: 80%;
+	margin-left: 10%;
+	padding-top: 20px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:visited {
+	color: white;
+}
+
+a:hover {
+	background: #171717;
+}
+
+h3 {
+	padding: 20px;
+}
+
+#good-container {
+	background: #21AD2D;
+	height: 100%;
+	width: 50%;
+	float: left;
+}
+
+#bad-container {
+	background: #F02626;
+	height: 100%;
+	width: 50%;
+	float: left;
+}
+
+.title {
+	text-align: center;
+	font-weight: bold;
+}
+
+.button {
+	width: 50%;
+	margin-left: 25%;
+	background: black;
+}
+
+.button:hover {
+	background: #171717;
+}

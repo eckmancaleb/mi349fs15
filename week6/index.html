@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Caleb Eckman One Pager</title>
+  <link rel="stylesheet" href="style.css" media="screen">
+  <script>
+
+  	function changeColor(target) {
+  		var colors = ["#B50000","#007502","#B600BD","blue","black","white"];
+  		var color = Math.floor((Math.random() * 6));
+  		document.getElementById(target).style.color = colors[color];
+  	}
+
+  </script>
+</head>
+
+<body>
+
+<div id="good-container">
+	<h1 class="title">Mapping - Good Example</h1>
+	<p id="target1">This is a sample paragraph.  This text can be changed by using the buttons.</p>
+	<a href="#"><div class="button" onclick="changeColor('target1')">
+		<h3>Change text color</h3>
+	</div></a>
+	<p id="target2">This is another sample paragraph.  This text can be changed by using the buttons.</p>
+	<a href="#"><div class="button" onclick="changeColor('target2')">
+		<h3>Change text color</h3>
+	</div></a>
+</div>
+
+<div id="bad-container">
+	<h1 class="title">Mapping - Bad Example</h1>
+	<p id="target3">This is a sample paragraph.  This text can be changed by using the buttons.</p>
+	<a href="#"><div class="button" onclick="changeColor('target4')">
+		<h3>Change text color</h3>
+	</div></a>
+	<p id="target4">This is another sample paragraph.  This text can be changed by using the buttons.</p>
+	<a href="#"><div class="button" onclick="changeColor('target3')">
+		<h3>Change text color</h3>
+	</div></a>
+</div>
+
+
+
+</body>
+
+</html>
