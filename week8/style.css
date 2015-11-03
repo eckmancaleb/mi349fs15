@@ -1,0 +1,29 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+p {
+	margin: 0;
+	padding: 20px;
+	font-size: 20px;
+}
+
+.column {
+	width: 33.33%;
+	background: #e3e3e3;
+	float: left;
+}
+
+@media (max-width: 1199px) {
+	.column {
+		width: 50%;
+	}
+}
+
+@media (max-width: 800px) {
+	.column {
+		width: 100%;
+
+	}
+}
