@@ -1,0 +1,169 @@
+@font-face {
+    font-family: main;
+    src: url("/Fonts/corbel.ttf");
+}
+
+body {
+    font-family: corbel, tahoma;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+    width: 100%;
+    padding-top: 4%;
+    padding-bottom: 10%;
+    margin-bottom: 0;
+    color: black;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    color: black;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+p {
+    font-size: 20px;
+    color: black;
+    width: 60%;
+    margin-left: 20%;
+}
+
+a {
+    color: black;
+}
+
+div {
+    border: 1px solid rgba(0,0,0,0);
+}
+
+.bottom-fixed {
+    position: absolute;
+    bottom: 0px;
+}
+
+.spacer {
+    height: 100%;
+    width: 100%;
+    border: 0;
+    background-image: url("/Assets/final_background8.png");
+    background-size: cover;
+    background-position: center center;
+}
+
+.article-bar {
+    width: 100%;
+    background: rgba(0,0,0,.8);
+    height: 50px;
+}
+
+.block-text {
+    width: 100%;
+    background-color: white;
+    position: relative;
+}
+
+.block-text:last-child {
+    padding-bottom: 20px;
+}
+
+#project-title {
+    margin-top: 0;
+}
+
+#project-description {
+    text-align: center;
+}
+
+#project-link {
+    width: 20%;
+    margin-left: 40%;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    background: rgba(0,0,0,.6);
+    transition: all .3s;
+}
+
+#project-link:hover {
+    background-color: rgba(0,0,0,.8);
+}
+
+#arrow-left {
+    width: 10%;
+    margin-left: 10px;
+    padding-bottom: 10%;
+    background-image: url("/Assets/arrow-left.png");
+    background-size: 100% auto;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: all .3s;
+}
+
+#arrow-left:hover {
+    margin-left: 0px;
+    background-image: url("/Assets/arrow-left-hover.png");
+}
+
+#arrow-right {
+    width: 10%;
+    margin-right: 10px;
+    padding-bottom: 10%;
+    background-image: url("/Assets/arrow-right.png");
+    background-size: 100% auto;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: all .3s;
+}
+
+#arrow-right:hover {
+    margin-right: 0px;
+    background-image: url("/Assets/arrow-right-hover.png");
+}
+
+@media only screen  and (max-width : 900px) {
+
+    h1 {
+        font-size: 70px;
+    }
+    #project-title {
+        margin-top: 15%;
+    }
+}
+
+@media only screen  and (max-width : 600px) {
+
+    h1 {
+        font-size: 50px;
+    }
+    #project-title {
+        margin-top: 25%;
+    }
+}

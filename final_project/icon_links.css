@@ -1,0 +1,190 @@
+.container {
+    position: absolute;
+    width: 15%;
+    padding: 20px 50px 50px 50px;
+}
+
+.right {
+    right: 0px;
+}
+
+.square {
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+}
+
+.aspect-padding {
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+}
+
+#about-link-inner {
+    background-image: url("/Assets/about-link-inner.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+#about-link-outer {
+    background-image: url("/Assets/link-outer.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+#projects-link-inner {
+    background-image: url("/Assets/projects-link-inner.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+#projects-link-outer {
+    background-image: url("/Assets/link-outer.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+#home-link-inner {
+    background-image: url("/Assets/home-link-inner.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+#home-link-outer {
+    background-image: url("/Assets/link-outer.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+#facebook-link-inner {
+    background-image: url("/Assets/facebook-link-inner.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+#facebook-link-outer {
+    background-image: url("/Assets/link-outer.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+#linkedin-link-inner {
+    background-image: url("/Assets/linkedin-link-inner.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+#linkedin-link-outer {
+    background-image: url("/Assets/link-outer.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+#youtube-link-inner {
+    background-image: url("/Assets/youtube-link-inner.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+#youtube-link-outer {
+    background-image: url("/Assets/link-outer.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+#instagram-link-inner {
+    background-image: url("/Assets/instagram-link-inner.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+#instagram-link-outer {
+    background-image: url("/Assets/link-outer.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.link-outer {
+    background-image: url("/Assets/link-outer.png");
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.link-inner {
+    width: 60%;
+    height: 60%;
+    margin-left: 20%;
+    margin-top: 20%;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.link-text-box {
+    position: relative;
+    width: 100%;
+    padding-bottom: 20%;
+}
+
+.link-text {
+    width: 100%;
+    font-family: corbel;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.small {
+    font-size: 16px;
+}
+
+#social-link-bar {
+    width: 60%;
+    margin-left: 20%;
+    height: 5%;
+}
+
+.social {
+    width: 15%;
+    margin: 4.8%;
+    float: left;
+    padding: 0;
+    position: relative;
+}
+
+@media only screen  and (max-width : 1000px) {
+
+    #social-link-bar {
+        width: 80%;
+        margin-left: 10%;
+        height: 5%;
+        margin-top: 10%;
+    }
+}
+
+@media only screen  and (max-width : 700px) {
+
+    .social {
+        width: 40%;
+        margin: 4.5%;
+        float: left;
+        padding: 0;
+        position: relative;
+    }
+
+    #social-link-bar {
+        width: 80%;
+        margin-left: 10%;
+        height: 5%;
+        margin-top: 20%;
+    }
+}
