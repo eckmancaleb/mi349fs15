@@ -1,0 +1,94 @@
+body {
+	margin: 0;
+	background: #00020f;
+	font-family: Tahoma;
+	text-align: center;
+}
+
+article {
+	margin-left: 20%;
+    width: 60%;
+    background: #cccccc;
+    padding: 0px;
+}
+
+#header {
+	width: 90%;
+	height: auto;
+	background: url("dark_poly_mesh.png");
+	padding: 5%;
+	color: white;
+}
+
+h1 {
+	font-family: Impact;
+	font-size: 2.5em;
+	color: white;
+}
+
+h2 {
+	padding: 20px;
+	text-align: center;
+	margin: 0;
+	background-color: #b5b5b5;
+}
+
+h3 {
+	color: #824C00;
+}
+
+#title-tag {
+	font-style: italic;
+	font-weight: bold;
+}
+
+a {
+	margin: 0;
+	color: blue;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:visited {
+	color: blue;
+}
+
+li {
+	list-style: none;
+	text-align: center;
+	padding: 30px;
+}
+
+li:hover {
+	background-color: #e0e0e0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+.persona-image {
+	width: 20%;
+	height: auto;
+}
+
+.persona-description {
+	width: 60%;
+	margin: 20px auto;
+}
+
+#persona-1 {
+	background: #cccccc;
+	padding: 40px 20px 20px 20px;
+}
+
+#persona-2 {
+	background: #d6d6d6;
+	padding: 40px 20px 20px 20px;
+}
+
+#persona-3 {
+	background: #cccccc;
+	padding: 40px 20px 20px 20px;
+}
